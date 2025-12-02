@@ -1,0 +1,57 @@
+.foodContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    flex-wrap: wrap;
+}
+
+.foodContainer h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.foodsTableOne {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 48%; /* duas colunas lado a lado */
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hamb1, .hamb2, .hamb3, .hamb4 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 3px solid #706e6e;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.imageFood {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.textFoodCard {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.textFoodCard button {
+    width: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}

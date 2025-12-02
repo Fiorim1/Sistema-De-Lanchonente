@@ -1,0 +1,70 @@
+/* Estilizando o "headerContainer" */
+.headerContainer {
+    padding: 150px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url(../assets/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #f6f6f6;
+    font-weight: bold;
+}
+
+/* Estilizando a logo do Header */
+.logoHeader{
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+/* Estilizando o "address" */
+.address {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #e0e0e0;
+}
+
+/* Estilizando os Botões do Header */
+.socialIcons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px; 
+    align-items: center;
+}
+
+.socialIcons button {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 10px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f6f6f6;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilizando o "date" */
+.date {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #d0d0d0;
+    display: flex;
+    justify-content: center;
+    cursor: default;
+}
+
+.date p {
+    background-color: #42ac22;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    color: #d1d1d1;
+}
